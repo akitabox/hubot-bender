@@ -7,7 +7,8 @@
   "keywords": [
     "bender",
     "Futurama",
-    "hubot"
+    "hubot",
+    "hubot-script"
   ],
   "repository": {
     "type": "git",
