@@ -1,7 +1,7 @@
 {
   "name": "@akitabox/hubot-bender",
   "description": "hubot script to impersonate Bender from Futurama",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Sam Roquitte <samroq@yahoo.com>",
   "license": "MIT",
   "keywords": [
