@@ -1,6 +1,6 @@
-# hubot-bender
+# Hubot-bender
 
-hubot script to impersonate Bender from Futurama
+Hubot script to impersonate Bender from Futurama
 
 See [`src/bender.coffee`](src/bender.coffee) for full documentation.
 
@@ -8,23 +8,37 @@ See [`src/bender.coffee`](src/bender.coffee) for full documentation.
 
 In hubot project repo, run:
 
-`npm install hubot-bender --save`
+`npm install @akitabox/hubot-bender --save`
 
 Then add **hubot-bender** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-bender"
+  "@akitabox/hubot-bender"
 ]
 ```
 
+## Commands
+
+`hubot bender on` - Starts responding to room messages with bender quotes
+
+`hubot bender off` - Stops responding to room messages with bender quotes
+
 ## Sample Interaction
 
+``` bash
+user1>> hubot bender on
+hubot>> I'm back baby!
+user1>> noot noot
+hubot>> I'll punchify your face
 ```
-user1>> hubot hello
-hubot>> hello!
+
+``` bash
+user1>> hubot bender off
+hubot>> I am bender... please insert gerter
+user1>> No more bender :(
 ```
 
 ## NPM Module
 
-https://www.npmjs.com/package/hubot-bender
+[hubot-bender](https://www.npmjs.com/package/@akitabox/hubot-bender)

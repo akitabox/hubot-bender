@@ -1,5 +1,5 @@
 {
-  "name": "hubot-bender",
+  "name": "@akitabox/hubot-bender",
   "description": "hubot script to impersonate Bender from Futurama",
   "version": "0.0.0",
   "author": "Sam Roquitte <samroq@yahoo.com>",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-bender.git"
+    "url": "git://github.com/akitabox/hubot-bender.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-bender/issues"
+    "url": "https://github.com/akitabox/hubot-bender/issues"
   },
   "dependencies": {},
   "peerDependencies": {

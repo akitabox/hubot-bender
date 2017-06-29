@@ -46,11 +46,11 @@ module.exports = (robot) ->
 
   robot.hear /bender on/i, (msg) ->
     beAnAss = true
-    msg.send "I'm back baby!"
+    msg.send 'I\'m back baby!'
 
   robot.hear /bender off/i, (msg) ->
     beAnAss = false
-    msg.send "I am bender... please insert gerter"
+    msg.send 'I am bender... please insert gerter'
 
   robot.hear /(.*)/i, (msg) ->
     if beAnAss
